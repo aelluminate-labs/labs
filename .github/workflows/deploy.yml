@@ -48,10 +48,9 @@ jobs:
 
       - name: Install Bun
         if: steps.detect-package-manager.outputs.manager == 'bun'
-        run: |
-          curl -fsSL https://bun.sh/install | bash
-          echo 'export BUN_INSTALL="$HOME/.bun"' >> $GITHUB_ENV
-          echo 'export PATH="$BUN_INSTALL/bin:$PATH"' >> $GITHUB_ENV
+        uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: "latest"
 
       - name: Cache Bun dependencies
         if: steps.detect-package-manager.outputs.manager == 'bun'
