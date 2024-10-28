@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={[lora.variable, lexendDeca.variable].join(" ")}>
-      <body className={`bg-white font-lexend-deca font-light antialiased`}>
+      <body className={`bg-neutral-900 font-lexend-deca font-light text-slate-50 antialiased`}>
         {children}
         <Footer />
       </body>
