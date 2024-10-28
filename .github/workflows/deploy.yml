@@ -46,6 +46,13 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Install Bun
+        if: steps.detect-package-manager.outputs.manager == 'bun'
+        run: |
+          curl -fsSL https://bun.sh/install | bash
+          export BUN_INSTALL="$HOME/.bun"
+          export PATH="$BUN_INSTALL/bin:$PATH"
+
       - name: Cache Bun dependencies
         if: steps.detect-package-manager.outputs.manager == 'bun'
         uses: actions/cache@v4
