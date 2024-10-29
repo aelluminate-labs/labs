@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     siteName: "Aelluminate",
     images: [
       {
-        url: "https://aelluminate.com/og.jpg",
+        url: "https://aelluminate.com/og.png",
         width: 1920,
         height: 1080,
       },
