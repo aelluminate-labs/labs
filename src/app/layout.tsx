@@ -1,19 +1,16 @@
 import React from "react"
-import type { Metadata } from "next"
+import { Metadata } from "next"
 
 // Global styles & fonts
 import "../assets/globals.css"
 import { lora, lexendDeca } from "@/utils/fonts"
 
 // Metadata for the global layout
-export const metadata: Metadata = {
-  title: "Aelluminate",
-  description:
-    "Aelluminate, a vibrant student-focused organization where the next generation of engineers nurtured by a dynamic collaboration between students and university professors.",
-}
+import { metadata as SiteMetadata } from "@/config/metadata"
+export const metadata: Metadata = SiteMetadata
 
 // Components
-import Footer from "@/components/footer"
+import { Footer } from "@/components/footer/_index"
 
 export default function RootLayout({
   children,
