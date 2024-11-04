@@ -1,4 +1,4 @@
-# Aelluminate.
+# Aelluminate Labs.
 
 ![status-badge](https://img.shields.io/badge/status-development-green?style=flat-square)
 ![license](https://img.shields.io/badge/license-aelluminate_license-green?style=flat-square&link=https%3A%2F%2Fgithub.com%2Faelluminate%2Faelluminate%2Fblob%2Fmain%2FLICENSE)
