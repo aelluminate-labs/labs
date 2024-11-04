@@ -8,8 +8,6 @@
 
 [Aelluminate](https://aelluminate.com), we are committed to empowering businesses to reach new heights through unwavering support, essential resources, and an innovative culture. Our team is dedicated to turning ideas into reality, enabling organizations to unlock their potential and expand their horizons. By fostering an environment of boundless opportunity and continuous growth, we’re helping businesses shape the future of their industries.
 
-![banner](/docs/images/landing-page.png)
-
 <div align='center'>
 
 ###### by [Team Aelluminate](https://aelluminate.com)
